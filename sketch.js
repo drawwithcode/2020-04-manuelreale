@@ -26,12 +26,12 @@ const mapview = [];
 
 
 function preload(){
-  theme = loadSound("/assets/SuperMarioBros.mp3");
-  jumps = loadSound("/assets/jump.mp3");
-  coin = loadSound("/assets/coin.mp3");
-  death = loadSound("/assets/death.mp3");
-  wins = loadSound("/assets/win.mp3");
-  bump = loadSound("/assets/bump.wav");
+  theme = loadSound("./assets/SuperMarioBros.mp3");
+  jumps = loadSound("./assets/jump.mp3");
+  coin = loadSound("./assets/coin.mp3");
+  death = loadSound("./assets/death.mp3");
+  wins = loadSound("./assets/win.mp3");
+  bump = loadSound("./assets/bump.wav");
   // put preload code here
 }
 
