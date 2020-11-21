@@ -190,7 +190,7 @@ function draw() {
 
   if(start==true){
     removeElements();
-    paul = createImg("/assets/start.png");
+    paul = createImg("'.'/assets/start.png");
   }else{
 
   if(pX>=77){
@@ -321,7 +321,7 @@ if(realEnd==false){
     }
   }
 }else{
-  paul = createImg("/assets/end.png");}
+  paul = createImg("./assets/end.png");}
 }
 
 
